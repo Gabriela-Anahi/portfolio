@@ -12,11 +12,11 @@
         <h1><i>Laboratorio virtual</i></h1>
         <nav>
             <ul>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
-                <li><a href="#historia">Historia</a></li>
-                <li><a href="#trabajos">Trabajos</a></li>
-                <li><a href="#experiencia">Experiencia</a></li>
-                <li><a href="#Habilidades">Habildades</a></li>
+                <li class="menu-item"><a href="#sobre-mi">Sobre mí</a></li>
+                <li class="menu-item"><a href="#historia">Historia</a></li>
+                <li class="menu-item"><a href="#trabajos">Trabajos</a></li>
+                <li class="menu-item"><a href="#experiencia">Experiencia</a></li>
+                <li class="menu-item"><a href="#Habilidades">Habildades</a></li>
             </ul> 
         </nav>
     </header>
@@ -29,9 +29,17 @@
     <img src="mi.jpg"alt="Retrato y contacto de Gabriela"class="mi.jpg">
 </section>
 
+<section>
+    <h1 style="color: #2ecc71;">Contacto</h1>
+    <ul><li>gabrielanahidev@gmail.com</li></ul>
+    <ul><li>✆2236885561</li></ul>
+</section>
     <section id="historia">
         <h2><i>Un poco de mi historia</i></h2>
         <p><i>Soy una persona con múltiples intereses y eso se vio reflejado en mi vida estudiantil tanto como en mi vida profesional, soy eviseradora, chef, coach ontologico y estudié medicina 7 años. Mi paso por el arte fue muy amplio y llevo desde diferentes tipos de danza a lo que es el diseño, tambien soy diseñadora ux/ui, disciplina a la que llegué queriendo estudiar programación, decidiéndome finalmente por front end, profesión que me está abriendo una nueva ventana de posibilidades en la vida. Soy fanática de las películas de terror y las reseñó en Twitter, soy educadora en un grupo Scout y en mis ratos libres disfruto mucho sacar fotos, bailar y escribir.</i></p>
+    </section>
+    <section>
+        <h1>´´No importa lo lento que vayas, mientras no te detengas´´</h1>
     </section>
 
     <section id="trabajos">
@@ -111,6 +119,22 @@
         <img src="https://w7.pngwing.com/pngs/205/650/png-transparent-node-js-javascript-software-developer-express-js-computer-software-node-js-logo-nodejs-software-development-thumbnail.png" alt=""class="imagen">
     
     </section>
+
+    <section>
+    <form action="procesar_formulario.php" method="POST">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</section>
+
 
     <footer>
         <p>©  </p>
